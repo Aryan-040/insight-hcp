@@ -82,9 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "MedRep AI · HCP Engagement CRM" },
       { name: "description", content: "AI-first CRM for pharmaceutical field representatives. Log HCP interactions with a structured form or a conversational AI assistant powered by LangGraph." },
       { property: "og:title", content: "MedRep AI · HCP Engagement CRM" },
-      { property: "og:description", content: "Log HCP interactions with a structured form or a conversational AI assistant powered by LangGraph." },
+      { property: "og:description", content: "AI-first CRM for pharmaceutical field representatives. Log HCP interactions with a structured form or a conversational AI assistant powered by LangGraph." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "MedRep AI · HCP Engagement CRM" },
+      { name: "twitter:description", content: "AI-first CRM for pharmaceutical field representatives. Log HCP interactions with a structured form or a conversational AI assistant powered by LangGraph." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/20a33b46-c729-496e-a648-4efa3a418c28" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/20a33b46-c729-496e-a648-4efa3a418c28" },
     ],
     links: [
       {
